@@ -3,7 +3,7 @@
  https://www.stm32duino.com
  
  ## WiKi:
- https://github.com/stm32duino/wiki/wiki
+ https://github.com/stm32duino/Arduino_Core_STM32/wiki
 
 More to come...
 
