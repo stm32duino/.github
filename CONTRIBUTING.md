@@ -10,9 +10,11 @@ To report a bug/request please file an issue in the right repository
 But check the following boxes before posting an issue:
 
 - [ ] `Make sure you are using the latest STM32 core and libraries versions.` See [latest core here](https://github.com/stm32duino/Arduino_Core_STM32/releases/latest).
-- [ ] `Your issue is NOT a question/feedback/suggestions.` This should be discussed on the [stm32duino forum](http://stm32duino.com):
-  * questions on the [STM32 Core](http://stm32duino.com/viewforum.php?f=35).
-  * bugs/enhancements on the [STM core: Bugs and enhancements](http://stm32duino.com/viewforum.php?f=38).
+- [ ] `Your issue is NOT a question/feedback/suggestions.` This should be discussed on:
+  * [stm32duino Github discussions](https://github.com/orgs/stm32duino/discussions)
+  * [stm32duino forum](http://stm32duino.com):
+   * questions on the [STM32 Core](http://stm32duino.com/viewforum.php?f=35).
+   * bugs/enhancements on the [STM core: Bugs and enhancements](http://stm32duino.com/viewforum.php?f=38).
 - [ ] `Make sure your issue is not already reported/fixed on GitHub or discussed on the forum` See [stm32duino forum](http://stm32duino.com).
 - [ ] `Make sure you are working on the right repository.` See the table below.
 
@@ -23,7 +25,6 @@ But check the following boxes before posting an issue:
 |[STM32 Examples](https://github.com/stm32duino/STM32Examples) | Arduino library to provide examples related to STM32 |
 |[Board Manager Files](https://github.com/stm32duino/BoardManagerFiles) | Storage for Arduino Boards Manager JSON file |
 |[CMSIS module](https://github.com/stm32duino/ArduinoModule-CMSIS) | Mainly storage |
-|[GNU Arm Embedded Toolchain binaries](https://github.com/stm32duino/arm-none-eabi-gcc) | Mainly storage |
 |[STM32 Libraries for Arduino IDE](https://github.com/stm32duino) | Search on the STM32duino GitHub repository |
 
 ### 2. Posting the issue
@@ -35,7 +36,7 @@ When you have checked the previous boxes. Please consider the following points b
 - [ ] `Demonstration code should be complete, correct and the minimum amount necessary to reproduce the issue`
 
 ### 3. Pull Requests
-About [Pull Requests](https://help.github.com/articles/about-pull-requests/)
+First see how to [contribute to a project](https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project) (fork, clone,...) and create a [Pull Requests](https://help.github.com/articles/about-pull-requests/).
 
 ### 4. Commit messages
 An easy to read pull request will speed up the merging process. Your commit messages need to be logically separate.
