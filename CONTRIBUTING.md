@@ -10,7 +10,7 @@ To report a bug/request please file an issue in the right repository
 But check the following boxes before posting an issue:
 
 - [ ] `Make sure you are using the latest STM32 core and libraries versions.` See [latest core here](https://github.com/stm32duino/Arduino_Core_STM32/releases/latest).
-- [ ] `Your issue is NOT a question/feedback/suggestions.` This should be discussed on:
+- [ ] `Your issue is NOT a question/feedback/suggestions.` This should be discussed on the:
   * [stm32duino Github discussions](https://github.com/orgs/stm32duino/discussions)
   * [stm32duino forum](http://stm32duino.com):
    * questions on the [STM32 Core](http://stm32duino.com/viewforum.php?f=35).
@@ -25,6 +25,7 @@ But check the following boxes before posting an issue:
 |[STM32 Examples](https://github.com/stm32duino/STM32Examples) | Arduino library to provide examples related to STM32 |
 |[Board Manager Files](https://github.com/stm32duino/BoardManagerFiles) | Storage for Arduino Boards Manager JSON file |
 |[CMSIS module](https://github.com/stm32duino/ArduinoModule-CMSIS) | Mainly storage |
+|[SVD Files](https://github.com/stm32duino/stm32_svd) | Mainly storage |
 |[STM32 Libraries for Arduino IDE](https://github.com/stm32duino) | Search on the STM32duino GitHub repository |
 
 ### 2. Posting the issue
@@ -36,15 +37,14 @@ When you have checked the previous boxes. Please consider the following points b
 - [ ] `Demonstration code should be complete, correct and the minimum amount necessary to reproduce the issue`
 
 ### 3. Pull Requests
-First see how to [contribute to a project](https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project) (fork, clone,...) and create a [Pull Requests](https://help.github.com/articles/about-pull-requests/).
+About [Pull Requests](https://help.github.com/articles/about-pull-requests/)
 
 ### 4. Commit messages
 An easy to read pull request will speed up the merging process. Your commit messages need to be logically separate.
 And containing enough information on their own. When this is done consistently your pull request will have an easy
 to read log of changes.
 
-Your commits need to be [atomic](https://www.freshconsulting.com/atomic-commits/) which allows the repository to remain
-flexible after merging.
+Your commits need to be atomic which allows the repository to remain flexible after merging.
 
 If you did not read the following 7 points before or just want to fresh up. Please read up on them on this [website](https://chris.beams.io/posts/git-commit) by Chris Beams.
 
@@ -101,4 +101,4 @@ More information about rebasing can be found at the repository of [edX](https://
 
 ### 6. Merged!
 When your pull request is merged please update the documentation if the changes require it
-[Wiki](https://github.com/stm32duino/Arduino_Core_STM32/wiki)
+[Documentation](https://stm32duino.github.io/)
